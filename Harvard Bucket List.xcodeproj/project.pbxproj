@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFFB4751DBBEC6600FD8AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4741DBBEC6600FD8AB6 /* AppDelegate.swift */; };
+		DDFFB4771DBBEC6600FD8AB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4761DBBEC6600FD8AB6 /* ViewController.swift */; };
+		DDFFB47A1DBBEC6600FD8AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFFB4781DBBEC6600FD8AB6 /* Main.storyboard */; };
+		DDFFB47C1DBBEC6600FD8AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFFB47B1DBBEC6600FD8AB6 /* Assets.xcassets */; };
+		DDFFB47F1DBBEC6600FD8AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFFB47D1DBBEC6600FD8AB6 /* LaunchScreen.storyboard */; };
+		DDFFB48A1DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4891DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift */; };
+		DDFFB4951DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4941DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFFB4861DBBEC6600FD8AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFFB4691DBBEC6600FD8AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFFB4701DBBEC6600FD8AB6;
+			remoteInfo = "Harvard Bucket List";
+		};
+		DDFFB4911DBBEC6600FD8AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFFB4691DBBEC6600FD8AB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFFB4701DBBEC6600FD8AB6;
+			remoteInfo = "Harvard Bucket List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDFFB4711DBBEC6600FD8AB6 /* Harvard Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harvard Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFFB4741DBBEC6600FD8AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDFFB4761DBBEC6600FD8AB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDFFB4791DBBEC6600FD8AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFFB47B1DBBEC6600FD8AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFFB47E1DBBEC6600FD8AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDFFB4801DBBEC6600FD8AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFFB4851DBBEC6600FD8AB6 /* Harvard Bucket ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harvard Bucket ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFFB4891DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvard_Bucket_ListTests.swift; sourceTree = "<group>"; };
+		DDFFB48B1DBBEC6600FD8AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFFB4901DBBEC6600FD8AB6 /* Harvard Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harvard Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFFB4941DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvard_Bucket_ListUITests.swift; sourceTree = "<group>"; };
+		DDFFB4961DBBEC6600FD8AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFFB46E1DBBEC6600FD8AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFB4821DBBEC6600FD8AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFB48D1DBBEC6600FD8AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFFB4681DBBEC6600FD8AB6 = {
+			isa = PBXGroup;
+			children = (
+				DDFFB4731DBBEC6600FD8AB6 /* Harvard Bucket List */,
+				DDFFB4881DBBEC6600FD8AB6 /* Harvard Bucket ListTests */,
+				DDFFB4931DBBEC6600FD8AB6 /* Harvard Bucket ListUITests */,
+				DDFFB4721DBBEC6600FD8AB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFFB4721DBBEC6600FD8AB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFB4711DBBEC6600FD8AB6 /* Harvard Bucket List.app */,
+				DDFFB4851DBBEC6600FD8AB6 /* Harvard Bucket ListTests.xctest */,
+				DDFFB4901DBBEC6600FD8AB6 /* Harvard Bucket ListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFFB4731DBBEC6600FD8AB6 /* Harvard Bucket List */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFB4741DBBEC6600FD8AB6 /* AppDelegate.swift */,
+				DDFFB4761DBBEC6600FD8AB6 /* ViewController.swift */,
+				DDFFB4781DBBEC6600FD8AB6 /* Main.storyboard */,
+				DDFFB47B1DBBEC6600FD8AB6 /* Assets.xcassets */,
+				DDFFB47D1DBBEC6600FD8AB6 /* LaunchScreen.storyboard */,
+				DDFFB4801DBBEC6600FD8AB6 /* Info.plist */,
+			);
+			path = "Harvard Bucket List";
+			sourceTree = "<group>";
+		};
+		DDFFB4881DBBEC6600FD8AB6 /* Harvard Bucket ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFB4891DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift */,
+				DDFFB48B1DBBEC6600FD8AB6 /* Info.plist */,
+			);
+			path = "Harvard Bucket ListTests";
+			sourceTree = "<group>";
+		};
+		DDFFB4931DBBEC6600FD8AB6 /* Harvard Bucket ListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFB4941DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift */,
+				DDFFB4961DBBEC6600FD8AB6 /* Info.plist */,
+			);
+			path = "Harvard Bucket ListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFFB4701DBBEC6600FD8AB6 /* Harvard Bucket List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFFB4991DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket List" */;
+			buildPhases = (
+				DDFFB46D1DBBEC6600FD8AB6 /* Sources */,
+				DDFFB46E1DBBEC6600FD8AB6 /* Frameworks */,
+				DDFFB46F1DBBEC6600FD8AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harvard Bucket List";
+			productName = "Harvard Bucket List";
+			productReference = DDFFB4711DBBEC6600FD8AB6 /* Harvard Bucket List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFFB4841DBBEC6600FD8AB6 /* Harvard Bucket ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFFB49C1DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket ListTests" */;
+			buildPhases = (
+				DDFFB4811DBBEC6600FD8AB6 /* Sources */,
+				DDFFB4821DBBEC6600FD8AB6 /* Frameworks */,
+				DDFFB4831DBBEC6600FD8AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFFB4871DBBEC6600FD8AB6 /* PBXTargetDependency */,
+			);
+			name = "Harvard Bucket ListTests";
+			productName = "Harvard Bucket ListTests";
+			productReference = DDFFB4851DBBEC6600FD8AB6 /* Harvard Bucket ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDFFB48F1DBBEC6600FD8AB6 /* Harvard Bucket ListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFFB49F1DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket ListUITests" */;
+			buildPhases = (
+				DDFFB48C1DBBEC6600FD8AB6 /* Sources */,
+				DDFFB48D1DBBEC6600FD8AB6 /* Frameworks */,
+				DDFFB48E1DBBEC6600FD8AB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFFB4921DBBEC6600FD8AB6 /* PBXTargetDependency */,
+			);
+			name = "Harvard Bucket ListUITests";
+			productName = "Harvard Bucket ListUITests";
+			productReference = DDFFB4901DBBEC6600FD8AB6 /* Harvard Bucket ListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFFB4691DBBEC6600FD8AB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jason Ren";
+				TargetAttributes = {
+					DDFFB4701DBBEC6600FD8AB6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DDFFB4841DBBEC6600FD8AB6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDFFB4701DBBEC6600FD8AB6;
+					};
+					DDFFB48F1DBBEC6600FD8AB6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDFFB4701DBBEC6600FD8AB6;
+					};
+				};
+			};
+			buildConfigurationList = DDFFB46C1DBBEC6600FD8AB6 /* Build configuration list for PBXProject "Harvard Bucket List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFFB4681DBBEC6600FD8AB6;
+			productRefGroup = DDFFB4721DBBEC6600FD8AB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFFB4701DBBEC6600FD8AB6 /* Harvard Bucket List */,
+				DDFFB4841DBBEC6600FD8AB6 /* Harvard Bucket ListTests */,
+				DDFFB48F1DBBEC6600FD8AB6 /* Harvard Bucket ListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFFB46F1DBBEC6600FD8AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFFB47F1DBBEC6600FD8AB6 /* LaunchScreen.storyboard in Resources */,
+				DDFFB47C1DBBEC6600FD8AB6 /* Assets.xcassets in Resources */,
+				DDFFB47A1DBBEC6600FD8AB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFB4831DBBEC6600FD8AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFB48E1DBBEC6600FD8AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFFB46D1DBBEC6600FD8AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFFB4771DBBEC6600FD8AB6 /* ViewController.swift in Sources */,
+				DDFFB4751DBBEC6600FD8AB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFB4811DBBEC6600FD8AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFFB48A1DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFB48C1DBBEC6600FD8AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFFB4951DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFFB4871DBBEC6600FD8AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFFB4701DBBEC6600FD8AB6 /* Harvard Bucket List */;
+			targetProxy = DDFFB4861DBBEC6600FD8AB6 /* PBXContainerItemProxy */;
+		};
+		DDFFB4921DBBEC6600FD8AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFFB4701DBBEC6600FD8AB6 /* Harvard Bucket List */;
+			targetProxy = DDFFB4911DBBEC6600FD8AB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFFB4781DBBEC6600FD8AB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFFB4791DBBEC6600FD8AB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFFB47D1DBBEC6600FD8AB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFFB47E1DBBEC6600FD8AB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFFB4971DBBEC6600FD8AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFFB4981DBBEC6600FD8AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFFB49A1DBBEC6600FD8AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Harvard Bucket List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hackharvard.Harvard-Bucket-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDFFB49B1DBBEC6600FD8AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Harvard Bucket List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hackharvard.Harvard-Bucket-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DDFFB49D1DBBEC6600FD8AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Harvard Bucket ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hackharvard.Harvard-Bucket-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harvard Bucket List.app/Harvard Bucket List";
+			};
+			name = Debug;
+		};
+		DDFFB49E1DBBEC6600FD8AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Harvard Bucket ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hackharvard.Harvard-Bucket-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harvard Bucket List.app/Harvard Bucket List";
+			};
+			name = Release;
+		};
+		DDFFB4A01DBBEC6600FD8AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Harvard Bucket ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hackharvard.Harvard-Bucket-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Harvard Bucket List";
+			};
+			name = Debug;
+		};
+		DDFFB4A11DBBEC6600FD8AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Harvard Bucket ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hackharvard.Harvard-Bucket-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Harvard Bucket List";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFFB46C1DBBEC6600FD8AB6 /* Build configuration list for PBXProject "Harvard Bucket List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFFB4971DBBEC6600FD8AB6 /* Debug */,
+				DDFFB4981DBBEC6600FD8AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFFB4991DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFFB49A1DBBEC6600FD8AB6 /* Debug */,
+				DDFFB49B1DBBEC6600FD8AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDFFB49C1DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFFB49D1DBBEC6600FD8AB6 /* Debug */,
+				DDFFB49E1DBBEC6600FD8AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDFFB49F1DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket ListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFFB4A01DBBEC6600FD8AB6 /* Debug */,
+				DDFFB4A11DBBEC6600FD8AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFFB4691DBBEC6600FD8AB6 /* Project object */;
+}
