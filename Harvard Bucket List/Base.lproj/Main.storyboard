@@ -1,26 +1,121 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Harvard_Bucket_List" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFT-DR-7qr">
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCC-jO-MRs">
+                                        <rect key="frame" x="0.0" y="-82" width="375" height="1000"/>
+                                        <color key="backgroundColor" red="0.53301084840000001" green="0.081104970489999997" blue="0.1762529947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="iMO-x2-ehJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SCC-jO-MRs" firstAttribute="leading" secondItem="JFT-DR-7qr" secondAttribute="leading" id="biF-c7-cBa"/>
+                                    <constraint firstAttribute="trailing" secondItem="SCC-jO-MRs" secondAttribute="trailing" id="c3h-gZ-txl"/>
+                                    <constraint firstItem="SCC-jO-MRs" firstAttribute="top" secondItem="JFT-DR-7qr" secondAttribute="top" id="qRo-dJ-WK9"/>
+                                    <constraint firstAttribute="bottom" secondItem="SCC-jO-MRs" secondAttribute="bottom" id="rYN-sH-Ybx"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harvard Bucket List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckF-RM-mji">
+                                <frame key="frameInset" minX="76" minY="71" width="245" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JFT-DR-7qr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="86" id="2Us-Cs-2Al"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JFT-DR-7qr" secondAttribute="bottom" id="7Qd-5w-tX7"/>
+                            <constraint firstItem="SCC-jO-MRs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Ern-On-vT0"/>
+                            <constraint firstItem="JFT-DR-7qr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RPQ-Kt-tCU"/>
+                            <constraint firstAttribute="trailing" secondItem="JFT-DR-7qr" secondAttribute="trailing" id="SBL-GI-ZJm"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="scrollInnerView" destination="SCC-jO-MRs" id="mKH-IM-t8D"/>
+                        <segue destination="sia-k4-bdk" kind="show" identifier="Pee on Harvard" id="AhD-ol-LQ5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-210" y="10"/>
+        </scene>
+        <!--Pee On Harvard View Controller-->
+        <scene sceneID="ZN5-n3-dRV">
+            <objects>
+                <viewController id="sia-k4-bdk" customClass="PeeOnHarvardViewController" customModule="Harvard_Bucket_List" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rJS-6j-fKW"/>
+                        <viewControllerLayoutGuide type="bottom" id="ePH-IL-XtK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GL5-dj-nFK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pee On Harvard Statue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7L-eh-MES">
+                                <frame key="frameInset" minX="69" minY="137" width="237" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.53301084840000001" green="0.081104970489999997" blue="0.1762529947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dlo-D3-qZn">
+                                <frame key="frameInset" minX="16" minY="175" width="343" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZz-F8-Eao">
+                                <frame key="frameInset" minX="136" minY="528" width="97" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Take a picture"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="sia-k4-bdk" eventType="touchUpInside" id="Zrk-wN-B12"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wew-1e-VJ9">
+                                <frame key="frameInset" minX="16" minY="74" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Go Back"/>
+                                <connections>
+                                    <action selector="goBack:" destination="sia-k4-bdk" eventType="touchUpInside" id="NWI-r1-J3I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Dlo-D3-qZn" id="5G8-Mw-dHe"/>
+                        <outlet property="topLabel" destination="X7L-eh-MES" id="lrJ-kj-ZYY"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="Back Home" id="0Vq-H1-3uD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iS5-SL-pwu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920.79999999999995" y="-113.3433283358321"/>
         </scene>
     </scenes>
 </document>

@@ -14,6 +14,7 @@
 		DDFFB47F1DBBEC6600FD8AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFFB47D1DBBEC6600FD8AB6 /* LaunchScreen.storyboard */; };
 		DDFFB48A1DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4891DBBEC6600FD8AB6 /* Harvard_Bucket_ListTests.swift */; };
 		DDFFB4951DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4941DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift */; };
+		DDFFB4E31DBC01F100FD8AB6 /* PeeOnHarvardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFB4E21DBC01F100FD8AB6 /* PeeOnHarvardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DDFFB4901DBBEC6600FD8AB6 /* Harvard Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harvard Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFFB4941DBBEC6600FD8AB6 /* Harvard_Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvard_Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		DDFFB4961DBBEC6600FD8AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFFB4E21DBC01F100FD8AB6 /* PeeOnHarvardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeeOnHarvardViewController.swift; path = ../PeeOnHarvardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DDFFB4741DBBEC6600FD8AB6 /* AppDelegate.swift */,
 				DDFFB4761DBBEC6600FD8AB6 /* ViewController.swift */,
 				DDFFB4781DBBEC6600FD8AB6 /* Main.storyboard */,
+				DDFFB4E21DBC01F100FD8AB6 /* PeeOnHarvardViewController.swift */,
 				DDFFB47B1DBBEC6600FD8AB6 /* Assets.xcassets */,
 				DDFFB47D1DBBEC6600FD8AB6 /* LaunchScreen.storyboard */,
 				DDFFB4801DBBEC6600FD8AB6 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				DDFFB4771DBBEC6600FD8AB6 /* ViewController.swift in Sources */,
 				DDFFB4751DBBEC6600FD8AB6 /* AppDelegate.swift in Sources */,
+				DDFFB4E31DBC01F100FD8AB6 /* PeeOnHarvardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				DDFFB49B1DBBEC6600FD8AB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDFFB49C1DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket ListTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				DDFFB49E1DBBEC6600FD8AB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDFFB49F1DBBEC6600FD8AB6 /* Build configuration list for PBXNativeTarget "Harvard Bucket ListUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				DDFFB4A11DBBEC6600FD8AB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
